@@ -1,0 +1,233 @@
+@media (max-width: 1337px) {
+  .hero-section .container {
+    gap: 80px;
+  }
+  .hero-section .container .image {
+    width: 40%;
+  }
+  .hero-section .container .text {
+    padding: 15px;
+  }
+}
+@media (max-width: 1028px) {
+  .hero-section .container {
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+  }
+  .hero-section .container .image {
+    width: 50%;
+  }
+  .hero-section .container .text {
+    padding: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .hero-section .container {
+    gap: 20px;
+    display: block;
+    align-items: center;
+  }
+  .hero-section .container .image {
+    width: 70%;
+  }
+  .hero-section .container .text {
+    padding: 5px;
+  }
+}
+@media (max-width: 1337px) {
+  .about-section .container {
+    gap: 30px;
+  }
+  .about-section .container .abt-text h1 {
+    font-size: 45px;
+  }
+  .about-section .container .abt-text p {
+    font-size: 18px;
+  }
+}
+@media (max-width: 1028px) {
+  .about-section .container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-section .container .abt-text {
+    margin-top: 50px;
+  }
+  .about-section .container .abt-text h1 {
+    font-size: 40px;
+  }
+  .about-section .container .abt-text p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .about-section {
+    padding: 20px 5px;
+  }
+  .about-section .container {
+    gap: 20px;
+  }
+  .about-section .container .abt-text {
+    margin-top: 30px;
+  }
+  .about-section .container .abt-text h1 {
+    font-size: 35px;
+  }
+  .about-section .container .abt-text p {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1337px) {
+  .resume-section section {
+    max-width: 700px;
+    padding: 15px;
+  }
+  .resume-section section .skill-ul .skill-li {
+    padding: 25px;
+  }
+}
+@media (max-width: 1028px) {
+  .resume-section section {
+    max-width: 600px;
+    padding: 10px;
+  }
+  .resume-section section .skill-ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  .resume-section section .skill-ul .skill-li {
+    margin-bottom: 15px;
+    padding: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .resume-section section {
+    max-width: 100%;
+    padding: 5px;
+  }
+  .resume-section section .skill-ul .skill-li {
+    padding: 15px;
+  }
+}
+@media (max-width: 1337px) {
+  .testimonial-section {
+    padding: 40px;
+  }
+  .testimonial-section .container {
+    padding: 15px;
+  }
+  .testimonial-section .container .testimonial {
+    padding: 15px 0;
+  }
+}
+@media (max-width: 1028px) {
+  .testimonial-section {
+    padding: 30px;
+  }
+  .testimonial-section .container {
+    padding: 10px;
+  }
+  .testimonial-section .container .testimonial {
+    padding: 10px 0;
+  }
+}
+@media (max-width: 768px) {
+  .testimonial-section {
+    padding: 20px;
+  }
+  .testimonial-section .container {
+    padding: 5px;
+  }
+  .testimonial-section .container .testimonial {
+    padding: 5px 0;
+  }
+  .testimonial-section .container .cta {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 1337px) {
+  .project-section {
+    padding: 25px 5px;
+  }
+  .project-section .container {
+    gap: 40px;
+  }
+}
+@media (max-width: 1028px) {
+  .project-section {
+    padding: 20px 5px;
+  }
+  .project-section .container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .project-section {
+    padding: 15px 5px;
+  }
+  .project-section .container {
+    gap: 20px;
+  }
+}
+@media (max-width: 1337px) {
+  .container .center {
+    width: 60%;
+    padding: 40px;
+  }
+}
+@media (max-width: 1028px) {
+  .container .center {
+    width: 70%;
+    padding: 30px;
+  }
+}
+@media (max-width: 768px) {
+  .container .center {
+    width: 80%;
+    padding: 20px;
+  }
+  .container .center form {
+    padding: 0 20px;
+  }
+}
+@media (max-width: 1337px) {
+  .container {
+    padding: 50px 20px;
+  }
+}
+@media (max-width: 1028px) {
+  .container {
+    padding: 40px 15px;
+  }
+  .container .socialIcons a {
+    padding: 8px;
+  }
+  .container .footerNav ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .footerNav ul li a {
+    margin: 10px;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    padding: 30px 10px;
+  }
+  .container .socialIcons {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .container .socialIcons a {
+    margin: 5px;
+  }
+  .container .footerNav ul {
+    flex-direction: column;
+  }
+  .container .footerNav ul li a {
+    margin: 10px 0;
+  }
+}/*# sourceMappingURL=responsive.css.map */
