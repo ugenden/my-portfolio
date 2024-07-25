@@ -1,7 +1,7 @@
-#this is my portfolio
+# This is my portfolio
 
-#list i used
-. HTML
-.CSS
-.Bootstrap
-.SASS
+## list i used
+- HTML
+- CSS
+- Bootstrap
+- SASS
