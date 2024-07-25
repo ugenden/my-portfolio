@@ -1,6 +1,6 @@
 # This is my portfolio
 
-## list i used
+## I used
 - HTML
 - CSS
 - Bootstrap
