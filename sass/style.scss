@@ -5,21 +5,25 @@
     box-sizing: border-box;
     font-family:Poppins;
 }
+header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
 .header_section{
-
   a img{
     border-radius: 50%;
   }
+}
 }
 
 // hero section
 .hero-section{
     width: 100%;
-    background-color: var.$black;
+    background-color:var.$black;
     padding-bottom: 10px;
     marquee{
       color: var.$white;
-      margin: 20px 0px;
+      // margin: 20px 0px;
     }
  .container{
     width: 100%;
@@ -30,6 +34,7 @@
     color: var.$white;
     transition: all 0.5s ease-in-out;
     .image{
+      height: 60vh;
       width: 30%;
      text-align: center;
       img{
@@ -89,6 +94,7 @@
 
 // Resume section
 .resume-section {
+  display: none;
   background-color: var.$white;
   padding: 50px;
   h2{
@@ -124,6 +130,7 @@ section{
 
 // Testimonial section
 .testimonial-section{
+  display: none;
   background-color: var.$black;
   padding: 100px 30px;
   .container{
