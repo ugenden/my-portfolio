@@ -173,12 +173,14 @@ header .header_section a img {
 }
 .project-section .container {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   align-items: center;
   gap: 50px;
   text-align: center;
 }
 .project-section .container .card img {
-  height: 250px;
+  height: 413px;
 }
 .project-section .container .card .card-body {
   padding-bottom: 20px;
